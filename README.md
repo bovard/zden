@@ -4,6 +4,7 @@ npm package for generating random maps for 2016 [battlecode](http://www.battleco
 zden *(zombie den? zombie eden? no one knows)* creates a bunch of maps for you to test your bot on! You can easily create 100s of random maps (so you should probably be using [archon](https://www.npmjs.com/package/archon) to test). 
 
 Maps include:
+
 1. between 30x30 and 80x80
 2. rubble <= 1,000,000
 3. zombie den placement [1-8 dens] follows the spec (30% closer to one player)
