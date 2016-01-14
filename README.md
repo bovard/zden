@@ -12,7 +12,7 @@ Maps include:
 5. random terrain
 6. random parts
 7. random neutrals (including up to 4 archons)
-8. stating archons [1, 4]
+8. starting archons [1, 4]
 9. archons start together, or seperate
 10. all the rotations, symmetry!
 11. really weird names!
