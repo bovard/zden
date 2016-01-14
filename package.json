@@ -23,6 +23,7 @@
   "homepage": "https://github.com/bovard/zden#readme",
   "devDependencies": {
     "minimist": "^1.2.0",
+    "random-name": "^0.1.1",
     "xml": "^1.0.0"
   }
 }
