@@ -1,0 +1,28 @@
+{
+  "name": "zden",
+  "version": "0.0.1",
+  "description": "A tool to create random maps for battlecode 2016",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bovard/zden.git"
+  },
+  "keywords": [
+    "battlecode",
+    "map",
+    "creator"
+  ],
+  "author": "Bovard Doerschuk-Tiberi <bovard.tiberi@gmail.com> (http://github.com/bovard)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bovard/zden/issues"
+  },
+  "homepage": "https://github.com/bovard/zden#readme",
+  "devDependencies": {
+    "minimist": "^1.2.0",
+    "xml": "^1.0.0"
+  }
+}
