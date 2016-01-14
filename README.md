@@ -31,4 +31,4 @@ Maps include:
 10. all the rotations, symmetry!
 11. really weird names!
 
-This is a very early release so look for more features coming soon! If you'd like to see something please open an issue or submit a PR!
+This is a very early release so look for more features coming soon! If you'd like to see something please open an [issue](https://github.com/bovard/zden/issues) or submit a PR!
