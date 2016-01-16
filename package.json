@@ -1,6 +1,6 @@
 {
   "name": "zden",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool to create random maps for battlecode 2016",
   "main": "./lib/main",
   "bin": "./bin/zden",
