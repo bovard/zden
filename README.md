@@ -36,6 +36,26 @@ Maps include:
 8. starting archons [1, 4]
 9. archons start together, or seperate
 10. all the rotations, symmetry!
-11. really weird names!
+11. descriptive names!
 
-This is a very early release so look for more features coming soon! If you'd like to see something please open an [issue](https://github.com/bovard/zden/issues) or submit a PR!
+#### Map Names
+Z[z]_R[r]_A[a]_D[d]_<random_name>.xml
+```
+z in [0, 3] represents the number of zombie spawns on the map (0 light schedule, 3 max schedule)
+r in [0, 9] represents the amount of rubble on the map the higher the number the more rubble
+   *note: this is a log scale on average rubble per square
+a in [1, 4] represents the number of starting team archons
+d in [2, 4, 6, 8] represents the total number of starting dens
+```
+
+The `z`, `a`, and `d` params can be explicity assigned.
+
+For example: 
+
+  * if you wanted to create 10 maps with a light zombie schedule: `zden -z 0 -n 10`
+  * if you wanted to create 10 maps with 4 team archons: `zden -a 4 -n 10`
+  * if you wanted to create 10 maps with 8 starting dens: `zden -d 8 -n 10`
+  * if you wanted to create 10 maps with light Z, 4 archons and 2 dens: `zden -z 0 -a 4 -d 2 -n 10`
+
+
+If you'd like to see something please open an [issue](https://github.com/bovard/zden/issues) or submit a PR!
